@@ -1,4 +1,4 @@
-# PokéAPI Sprites <a href="https://pokeapi.co/api/v2/pokemon/smeargle"><img src='https://veekun.com/dex/media/pokemon/global-link/235.png' height=50px/></a>
+# PokéAPI Sprites <a href="https://pokeapi.co/api/v2/pokemon/smeargle"><img src='https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/235.svg' height=50px/></a>
 
 To save load on PokéAPI, we host all the sprite images here.
 If you want to use all the sprites in your application, you can just download the entire contents directly.
@@ -41,6 +41,7 @@ sprites
             \- yellow (PNGs with back, gbc, gray, transparent, back-gbc, back-gray, back-transparent variants)
         \- generation ii
             \- crystal (PNGs with back, shiny, back-shiny, transparent, transparent-shiny, back-transparent, back-transparent-shiny variants)
+				\- animated (GIFs of front facing sprites with shiny variants)
             \- gold (PNGs with back, shiny, transparent, back-shiny variants)
             \- silver (PNGs with back, shiny, transparent, back-shiny variants)
         \- generation iii
@@ -53,6 +54,8 @@ sprites
             \- platinum (PNGs with back, female, shiny, back-female, back-shiny, shiny-female variants)
         \- generation v
             \- black and white (PNGs with back, female, shiny, back-female, back-shiny, shiny-female, animated variants)
+            \- icons (PNGs)
+                \- animated (PNGs)
         \- generation vi
             \- omega ruby and alpha sapphire (PNGs with female, shiny, shiny-female variants)
             \- x and y (PNGs with female, shiny, shiny-female variants)
@@ -61,6 +64,9 @@ sprites
             \- icons (PNGs)
         \- generation viii
             \- icons (PNGs with female variants)
+            \- brilliant-diamond-shining-pearl (PNGs)
+        \- generation xi
+            \- scarlet-violet (PNGs with female)
     \- default PokeAPI sprites (PNGs with back, female, shiny, back-female, back-shiny, shiny-female variants)
 \- items
     \- default PokeAPI items (PNGs)
@@ -69,6 +75,8 @@ sprites
 > All the following images are embedded at a maximum 100x100px size. All the smaller ones preserve their size while the bigger ones are embedded at 100x100px.
 
 ### `pokemon`
+
+Interested in helping us complete the default Gen 5 style sprite collection? See [CONTRIBUTING_SPRITES.md](./CONTRIBUTING_SPRITES.md) for details on our maintenance scripts for National Dex 650+.
 
 #### `other`
 
@@ -93,7 +101,7 @@ sprites
 | PNG<br>_475x475_ | PNG<br>_475x475_|
 | <img src="sprites/pokemon/other/official-artwork/25.png" width="100"/> | <img src="sprites/pokemon/other/official-artwork/shiny/25.png" width="100"/> |
 
-This folder contains the custom shiny sprites of the official artwork. We thank [@DevMike123](https://github.com/DevMike123) and Pokétwo who are the spriters that created these custom shiny sprites.
+This folder contains the custom shiny sprites of the official artwork. We thank [@DevMike123](https://github.com/DevMike123), [@JoseBaGra](https://github.com/JoseBaGra), and Pokétwo who are the spriters that created these custom shiny sprites.
 
 ##### `showdown`
 
@@ -127,10 +135,10 @@ This folder contains sprites designed by the [Smogon community](https://www.smog
 
 ###### `crystal`
 
-| Front | Back | Front shiny | Back shiny | Front transparent | Back transparent | Front shiny transparent | Back shiny transparent |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| PNG<br>_40x40_, _48x48_, _56x56_ | PNG<br>_40x40_ | PNG<br>_40x40_, _48x48_, _56x56_ | PNG<br>_40x40_ | PNG<br>_96x96_ | PNG<br>_96x96_ | PNG<br>_96x96_ | PNG<br>_96x96_ |
-| <img src="sprites/pokemon/versions/generation-ii/crystal/25.png" width="40"/> | <img src="sprites/pokemon/versions/generation-ii/crystal/back/25.png" width="40"/> | <img src="sprites/pokemon/versions/generation-ii/crystal/shiny/25.png" width="40"/> | <img src="sprites/pokemon/versions/generation-ii/crystal/back/shiny/25.png" width="40"/> | <img src="sprites/pokemon/versions/generation-ii/crystal/transparent/25.png" width="96"/> | <img src="sprites/pokemon/versions/generation-ii/crystal/transparent/back/25.png" width="96"/> | <img src="sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/25.png" width="96"/> | <img src="sprites/pokemon/versions/generation-ii/crystal/transparent/back/shiny/25.png" width="96"/> |
+| Front | Back | Front shiny | Back shiny | Front transparent | Back transparent | Front shiny transparent | Back shiny transparent | Front animated | Front shiny animated |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| PNG<br>_40x40_, _48x48_, _56x56_ | PNG<br>_40x40_ | PNG<br>_40x40_, _48x48_, _56x56_ | PNG<br>_40x40_ | PNG<br>_96x96_ | PNG<br>_96x96_ | PNG<br>_96x96_ | PNG<br>_96x96_ | GIF<br>_56x56_ | GIF<br>_56x56_ |
+| <img src="sprites/pokemon/versions/generation-ii/crystal/25.png" width="40"/> | <img src="sprites/pokemon/versions/generation-ii/crystal/back/25.png" width="40"/> | <img src="sprites/pokemon/versions/generation-ii/crystal/shiny/25.png" width="40"/> | <img src="sprites/pokemon/versions/generation-ii/crystal/back/shiny/25.png" width="40"/> | <img src="sprites/pokemon/versions/generation-ii/crystal/transparent/25.png" width="96"/> | <img src="sprites/pokemon/versions/generation-ii/crystal/transparent/back/25.png" width="96"/> | <img src="sprites/pokemon/versions/generation-ii/crystal/transparent/shiny/25.png" width="96"/> | <img src="sprites/pokemon/versions/generation-ii/crystal/transparent/back/shiny/25.png" width="96"/> | <img src="sprites/pokemon/versions/generation-ii/crystal/animated/25.gif" width="56"/> | <img src="sprites/pokemon/versions/generation-ii/crystal/animated/shiny/25.gif" width="56"/> |
 
 ###### `gold`
 
@@ -214,6 +222,19 @@ Animated
 | GIF<br>_varies_ | GIF<br>_varies_ | GIF<br>_varies_ | GIF<br>_varies_ | GIF<br>_varies_ | GIF<br>_varies_ | GIF<br>_varies_ |
 | <img src="sprites/pokemon/versions/generation-v/black-white/animated/25.gif"/> | <img src="sprites/pokemon/versions/generation-v/black-white/animated/back/25.gif"/> | <img src="sprites/pokemon/versions/generation-v/black-white/animated/female/25.gif"/> | <img src="sprites/pokemon/versions/generation-v/black-white/animated/shiny/25.gif"/> | <img src="sprites/pokemon/versions/generation-v/black-white/animated/back/female/25.gif"/> | <img src="sprites/pokemon/versions/generation-v/black-white/animated/back/shiny/25.gif"/> | <img src="sprites/pokemon/versions/generation-v/black-white/animated/shiny/female/25.gif"/> |
 
+###### `icons`
+
+| Front |
+| --- |
+| PNG<br>_32x32_ |
+| <img src="sprites/pokemon/versions/generation-v/icons/25.png" width="32"/> |
+
+Animated
+
+| Front |
+| --- |
+| PNG<br>_32x32_ |
+| <img src="sprites/pokemon/versions/generation-v/icons/animated/25.png" width="32"/> |
 
 ##### `generation vi`
 
@@ -262,6 +283,22 @@ Animated
 | --- |
 | PNG<br>_30x30_, _24x24_ |
 | <img src="sprites/items/ability-capsule.png" width="30"/> |
+
+###### `brilliant-diamond-shining-pearl`
+
+| Front |
+| --- |
+| PNG<br>_256x256_ |
+| <img src="sprites/pokemon/versions/generation-viii/brilliant-diamond-shining-pearl/25.png" width="100"/> |
+
+##### `generation ix`
+
+###### `brilliant-diamond-shining-pearl`
+
+| Front |
+| --- |
+| PNG<br>_256x256_ |
+| <img src="sprites/pokemon/versions/generation-ix/scarlet-violet/25.png" width="100"/> |
 
 ## Thanks
 
